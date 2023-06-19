@@ -1,0 +1,255 @@
+.fa-phone {
+    color: #D10024;
+    margin: 15px 10px 0px 0px;
+}
+
+.fa-envelope {
+    color: #D10024;
+    margin: 15px 10px 0px 0px;
+}
+
+.fa-map-marker {
+    color: #D10024;
+    margin: 15px 10px 0px 0px;
+}
+
+.header-top {
+    display: flex;
+    background-color: #1E1F29;
+    color: white;
+    margin: -10px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.header-top-left div p:hover,
+.header-top-right div p:hover {
+    color: #D10024;
+    cursor: pointer;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
+
+.header-top-left div {
+    display: flex;
+    margin: 0px 30px 0px 0px;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0px;
+}
+
+.header-top-left {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 65px;
+
+}
+
+.header-top-right {
+    display: flex;
+    margin-right: 70px;
+}
+
+.header-top-right div {
+    display: flex;
+    margin: 0px 30px 0px 0px;
+}
+
+.fa-usd {
+    color: #D10024;
+    margin: 15px 10px 0px 0px;
+}
+
+.fa-user {
+    color: #D10024;
+    margin: 15px 10px 0px 0px;
+}
+
+.header-bottom {
+    background-color: #15161D;
+    margin: 10px 0px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    height: 242.8;
+    width: 927.2;
+}
+
+.wish-list-and-cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wish-list-and-cart div {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 50px 0px 0px;
+}
+
+.fa-heart {
+    margin: 15px 0px 0px 30px;
+}
+
+.fa-shopping-cart {
+    margin: 15px 0px 0px 20px;
+}
+
+.search-bar {
+    display: flex;
+    margin: 15px 0px;
+}
+
+#select-category {
+    width: 150px;
+    height: 40.5px;
+    border-radius: 40px 0px 0px 40px;
+    padding-left: 15px;
+    color: gray;
+}
+
+#search-bar input {
+    width: 460px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+#search-button {
+    background-color: #D10024;
+    width: 100px;
+    height: 43px;
+    color: white;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.nav-bar {
+    background-color: #fefcfe;
+}
+
+.nav-bar ul {
+    display: flex;
+    margin: 0px 250px;
+}
+
+.nav-bar ul li {
+    margin-right: 55px;
+    list-style-type: none;
+}
+
+.red-line {
+    background-color: red;
+    height: 1.75px;
+    margin-top: -10px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #2B2D42;
+    font-weight: 500;
+}
+
+.nav-bar ul li a:hover {
+    color: #D10024;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.nav-bar ul li a:focus {
+    color: #D10024;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.footer-top {
+    background-color: #15161d;
+    display: flex;
+    padding: 0px 150px;
+    margin-top: -9px;
+}
+
+.footer-top h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: #B9BABC;
+}
+
+.footer-top p,
+div {
+    color: #B9BABC;
+}
+
+.about-us {
+    font-size: 14px;
+    flex-basis: 25%;
+}
+
+.about-us div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-us div i {
+    margin-top: 3px;
+}
+
+.about-us div a:hover {
+    color: #D10024;
+    transition: 0.25s;
+}
+
+.footer-categories,
+.information,
+.service {
+    font-size: 14px;
+    flex-basis: 25%;
+}
+
+.footer-categories h1,
+.information h1,
+.service h1 {
+    margin-left: 37px;
+}
+
+.footer-categories ul li,
+.information ul li,
+.service ul li {
+    list-style-type: none;
+    margin-bottom: 17px;
+}
+
+.footer-categories ul li a:hover,
+.information ul li a:hover,
+.service ul li a:hover {
+    color: #D10024;
+    transition: 0.25s;
+}
+.footer-bottom{
+    background-color: #1E1F29;
+    height: 158.6px;
+}
+.credit-cards{
+    display: flex;
+    margin-left: 500px;
+    
+}
+.footer-bottom i{
+    font-size: 35px;
+    color: #15161d;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.footer-bottom i:hover{
+    cursor: pointer;
+}
