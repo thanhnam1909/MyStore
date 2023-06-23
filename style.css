@@ -165,8 +165,41 @@ body {
     text-decoration: underline;
     font-weight: 600;
 }
-.sign-up{
+.hot-deal {
+    position: relative;
     text-align: center;
+    color: #2b2d42;
+}
+.hot-deal img{  
+    width: 100%;
+    margin: 0px ;
+}
+.time-group{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 37%;
+}
+.time{
+    background-color: #d31737;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 15px;
+}
+.time h3 {
+    font-weight: 800;
+}
+.time p{
+    margin-top: -20px;
+}
+.sign-up{
+    width: 925px;
+    height: 238px;
+    text-align: center;
+    margin-left: 275px;
 }
 .sign-up h1{
     color: #333333;
@@ -178,6 +211,7 @@ body {
 .sign-up-input{
     display: flex;
     position: relative;
+    margin-left: 190px;
 }
 .sign-up-input input:first-child{
     height: 40px;
@@ -198,6 +232,31 @@ body {
     color: white;
     left: 410px;
     top: -2px;
+}
+.sign-up-button{
+    display: flex;
+    height: 40px;
+    width: 140px;
+    margin: 30px 0px 0px 350px;
+}
+.sign-up-button a{
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    color: #E4E7ED;
+    margin-left: 10px;
+}
+.sign-up-button i{
+    color: #15161D;
+    margin: 12px;
+}
+.sign-up-button a:hover{
+    background-color: #e4e7ed;
+    transition: 0.25s;
+}
+.sign-up-button a:hover i{
+    color: #D00024;
+    transition: 0.25s;
 }
 .footer-top {
     background-color: #15161d;
