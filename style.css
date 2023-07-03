@@ -165,22 +165,47 @@ body {
     text-decoration: underline;
     font-weight: 600;
 }
-.collection>div{
-    color: white;
-    background-color: black;
-    opacity: 0.9;
+
+/*----------- COLLECTION STYLE ----------*/
+.collection{
+    margin: 15px 60px 5px;
+}
+
+.object-collection{
+    position: relative;
     width: 240px;
-    height: 0px;
-	border-top: 150px solid #555;
-	border-left: 0px solid red;
-	border-right: 75px solid red;
 }
-.collection div h3{
-    font-size: 24px;
-    margin: 0px 0px 10px;
-    height: 52px;
-    width: 210px;
+
+.bottom-layer{
+    width: 360px;
+    height: 240px;
+    background-color: #e4e7ed;
+    opacity: 1;
 }
+
+.object-collection img{
+    position: absolute;
+    top: 0;
+    height: 240px;
+    width: auto;
+}
+
+.object-collection:hover img{
+    height: 250px;
+    transition: 0.25;
+    margin-left: -5px;
+}
+
+.top-layer{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    border-top: 240px solid rgba(209, 0, 36, 0.85);
+    border-right: 240px solid transparent;
+    border-left: 0px solid transparent;
+
+}
+
 .hot-deal {
     position: relative;
     text-align: center;
